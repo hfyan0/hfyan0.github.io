@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on hfyan0</title>
+    <link>https://hfyan0.github.io/posts/</link>
+    <description>Recent content in Posts on hfyan0</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hfyan0.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>https://hfyan0.github.io/posts/hugo/</link>
+      <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hfyan0.github.io/posts/hugo/</guid>
+      <description>Install the hugo package in your favourite Linux distro
+ sudo apt-get install hugo sudo pacman -Syu hugo sudo dnf install hugo Create our site
+ hugo new site your_site_name Choose your theme and install it
+ cd themes git clone https://github.com/themefisher/meghna-hugo.git Copy their example site to ours
+ cd .. cp themes/meghna-hugo/exampleSite/* -rf . Run web server locally to see the result
+ hugo server -D To generate our site type</description>
+      <content>&lt;p&gt;Install the hugo package in your favourite Linux distro&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;   sudo apt-get install hugo
+   sudo pacman -Syu hugo
+   sudo dnf install hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Create our site&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;   hugo new site your_site_name
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Choose your theme and install it&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;   cd themes
+   git clone https://github.com/themefisher/meghna-hugo.git
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Copy their example site to ours&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;   cd ..
+   cp themes/meghna-hugo/exampleSite/* -rf .
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Run web server locally to see the result&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;   hugo server -D
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To generate our site type&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;   hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Then our site will be generated into the &lt;code&gt;public&lt;/code&gt; folder.&lt;/p&gt;
+&lt;p&gt;BTW, this site was created with Hugo.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
